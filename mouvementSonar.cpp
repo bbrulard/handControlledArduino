@@ -156,7 +156,7 @@ void ledflash(){
        rgbled_7.show();
 
    }
-   if (currentMillis - startMillis >= 500){
+   if (currentMillis - startMillis > 500){
        rgbled_7.setColor(0,60,0,0);
        rgbled_7.show();
    }
@@ -165,89 +165,3 @@ void ledflash(){
    }
 }
 
-
-
-//   while(!((round(ultrasonic_3.distanceCm())) < (  9000)))
-//   {
-//       _loop();
-//       buzzer.tone(87, 500);
-//       delay(20);
-//   }
-// }
-
-
-// motor_9.run((9)==M1?-(50):(50));
-//    move(1,50);
- //   if((round(ultrasonic_3.distanceCm())) < (  9000)){
- //       rgbled_7.setColor(0,60,60,60);
- //       rgbled_7.show();
-//       buzzer.tone(110, 500);
- //       delay(20);
-
-
- // buzzer.tone((ultrasonic_3.distanceCm()*40), 400);
- //     motor_9.run((9)==M1?-(50):(50));
- //     motor_9.run((9)==M2?-(50):(50));
- //
- //     rgbled_7.setColor(0,60,0,0);
- //     rgbled_7.show();
- //     buzzer.tone((ultrasonic_3.distanceCm()*60), 100);
- //     rgbled_7.setColor(0,60,60,60);
- //     rgbled_7.show();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//bla
